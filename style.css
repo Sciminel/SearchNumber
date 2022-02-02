@@ -1,0 +1,85 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(0,0,0), rgb(200,200,200));
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: 600;
+}
+.container .nombre{
+    display: block;
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.container-card{
+    width: 70%;
+    height: 550px;
+    margin: 0 auto;
+    box-shadow: 0 10px 10px #333;
+    background: rgb(187, 187, 187);
+    position: relative;
+    border-radius: 20px;
+}
+
+.container-card .number{
+    text-align: center;
+    font-size: 20rem;
+    margin: 60px 0;
+}
+
+
+.container .search{
+    display: block;
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.container .restart{
+    display: block;
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.number.nope{
+    color: red;
+}
+.number.yes{
+    color: green;
+}
+
+.txt-indice{
+    text-align: center;
+    color: #333;
+}
+.nb-chance{
+    text-align: center;
+    color: #333;
+}
